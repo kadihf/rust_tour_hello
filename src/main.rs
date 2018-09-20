@@ -1,3 +1,6 @@
+use std::io::Write;
+use std::str::FromStr;
+
 fn gcd(mut n: u64, mut m: u64) -> u64 {
     assert!(n != 0 && m != 0);
 
@@ -16,7 +19,7 @@ fn gcd(mut n: u64, mut m: u64) -> u64 {
 
 
 fn main() {
-    println!("Hello, world!");
+
 }
 
 #[test]
